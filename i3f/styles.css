@@ -1,0 +1,53 @@
+.path-mod-i3f .resourcecontent {
+  text-align: center;
+}
+.title {
+}
+.thumb {
+  float: left;
+}
+.clickme {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 8px;
+}
+.clickme span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.clickme span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.clickme:hover span {
+  padding-right: 25px;
+}
+
+.clickme:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.listres {
+  list-style-position: inside;
+  list-style-type: none;
+}
+.items {
+  border: 1px solid;
+}
